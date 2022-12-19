@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "93a0c51c-4d08-4df6-b94b-d0d672f6d71a",
+		"name": "rabbitmq",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "publish",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"chicken joy\",\n    \"qty\": 1,\n    \"price\": 75\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/order/jollibee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"order",
+						"jollibee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
