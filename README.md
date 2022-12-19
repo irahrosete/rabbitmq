@@ -14,7 +14,7 @@ Tutorial from [Spring Boot RabbitMQ by Java Techie](https://www.youtube.com/watc
 #### How to run locally
 
 1. clone this repo
-    `git clone`
+    `git clone git@github.com:irahrosete/rabbitmq.git`
 2. navigate into the rabbitmq directory
     `cd rabbitmq`
 3. run docker-compose file to start rabbitmq
