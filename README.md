@@ -26,3 +26,8 @@ Tutorial from [Spring Boot RabbitMQ by Java Techie](https://www.youtube.com/watc
 6. log in using default username and password: guest
 7. run the app in IntelliJ
 8. open postman, import the rabbitmq collection from resources directory, run publish and watch the message published and consumed!
+
+Other Resources:
+- [RabbitMQ with Spring Boot](https://www.youtube.com/watch?v=lFqTdjaN_hM) by Infybuzz
+- [RabbitMQ Tutorial](https://www.youtube.com/watch?v=nFxjaVmFj5E&t=45s) by Amigoscode
+- [Implementing RabbitMQ in Spring Boot](https://www.youtube.com/watch?v=5kxLeR_YuIk) by Daily Code Buffer
